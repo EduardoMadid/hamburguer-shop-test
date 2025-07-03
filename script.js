@@ -147,7 +147,7 @@ checkoutBtn.addEventListener('click', () => {
     }).join('\n');
 
     const message = encodeURIComponent(`Olá, gostaria de fazer um pedido:\n\n${cartItems}\n\nTotal: ${cartTotal.textContent}\n\nEndereço: ${addressInput.value}`);
-    const phoneNumber = '939453458'; // Substitua pelo número de telefone do restaurante
+    const phoneNumber = '987560271'; // Substitua pelo número de telefone do restaurante
     
     window.open(`https://wa.me/${phoneNumber}?text=${message}`,'_blank');
 
